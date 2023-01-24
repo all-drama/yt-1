@@ -6,6 +6,12 @@ import requests, json
 from fastapi.responses import HTMLResponse
 app = FastAPI()
 
+@app.get("/")
+
+async def root():
+
+    return {"message": "Hello World"}
+
 @app.get("/{user_input}")
 async def read_user_input(user_input: str):
     headers = {
