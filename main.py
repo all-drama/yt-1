@@ -1,8 +1,8 @@
 from fastapi import FastAPI
-from bs4 import BeautifulSoup
-from urllib import parse
+
+
 import requests, json
-import re
+
 from fastapi.responses import HTMLResponse
 app = FastAPI()
 
