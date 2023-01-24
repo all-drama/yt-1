@@ -1,6 +1,3 @@
 fastapi
-bs4
-urllib
 requests
 json
-re
